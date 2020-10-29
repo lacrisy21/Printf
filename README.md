@@ -22,7 +22,7 @@ _Edge cases_
 ### Flowchart 🔩
 
 ```
-diagram
+dia
 ```
 ## Despliegue 📦
 
