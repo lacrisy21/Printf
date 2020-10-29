@@ -1,4 +1,9 @@
-![readme.md-alt-tag](https://www.canva.com/design/DAEMBgNw43I/view)
+<p align="center">
+  <img src="https://www.canva.com/design/DAEMBgNw43I/view" width="360"/>
+ <h1 align="center">System engineering & DevOps - Bash</h1>
+ <br>
+ </p>
+</p>
 
 # Creation of a simulation of PRINTF
 
