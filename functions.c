@@ -30,5 +30,8 @@ void ini_string(va_list arg, int *bytes)
 		*bytes += bit;
 	}
 	else
-		write(1, "(null)", 7);
+	{
+		write(1, "(null)", 6);
+		(*bytes) += 6;
+	}
 }
