@@ -1,11 +1,22 @@
 #include "holberton.h"
+/**
+ * ini_char - convert arg to char format
+ * @arg: argument from pass to printf.
+ * @bytes: pointer to count the numbers of bytes.
+ */
 void ini_char(va_list arg, int *bytes)
 {
 	char character;
+
 	character = (char) va_arg(arg, int);
-	write(1,&character,1);
+	write(1, &character, 1);
 	(*bytes)++;
 }
+/**
+ * ini_string - convert arg to string format
+ * @arg: argument from pass to printf.
+ * @bytes: pointer to count the numbers of bytes.
+ */
 void ini_string(va_list arg, int *bytes)
 {
 	char *s;
@@ -19,10 +30,5 @@ void ini_string(va_list arg, int *bytes)
 		*bytes += bit;
 	}
 	else
-		write(1,"(null)", 7);
+		write(1, "(null)", 7);
 }
-
-
-
-
-

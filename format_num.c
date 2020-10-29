@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+ * ini_intd - convert arg to number format
+ * @arg: argument from pass to printf.
+ * @bytes: pointer to count the numbers of bytes.
+ */
 void ini_intd(va_list arg, int *bytes)
 {
 	int number, counter, div_int;
@@ -13,7 +17,7 @@ void ini_intd(va_list arg, int *bytes)
 		(*bytes)++;
 	}
 
-	while ((number / div_int) > 9 || (number /div_int) < -9)
+	while ((number / div_int) > 9 || (number / div_int) < -9)
 	{
 		div_int *= 10;
 	}

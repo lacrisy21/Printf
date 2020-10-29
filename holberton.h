@@ -16,7 +16,8 @@ int _printf(const char *format, ...);
 void ini_char(va_list arg, int *bytes);
 void ini_intd(va_list arg, int *bytes);
 void ini_string(va_list arg, int *bytes);
-int bytes_count(char *s);
+int bytes_count(const char *s);
 int _putchar(char c);
-void checkformat(const char *format, int *bytes);
+void check_formatdifferent(const char **form, int *bytes);
+void check_formequal(const char **form, va_list arg, int *bytes);
 #endif /*HOLBERTON*/
