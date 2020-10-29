@@ -59,10 +59,6 @@ void check_formequal(const char **form, va_list arg, int *bytes)
 		counter = 0, (*form)++;
 		if (**form == '%')
 		{
-			(*form)--;
-			character = **form;
-			_putchar(character);
-			(*bytes)++, (*form)++;
 			character = **form;
 			_putchar(character);
 			(*bytes)++, (*form)++;
