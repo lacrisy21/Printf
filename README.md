@@ -71,9 +71,12 @@ i|Prints a signed decimal integer|%i
 
 ### Flowchart 🔩
 
-```
-Diagrama
-```
+<p align="center">
+  <img src="https://github.com/lacrisy21/README-stuff/blob/main/flow.png" width="800"/>
+ <h1 align="center">Simulated Printf function</h1>
+ <br>
+ </p>
+</p>
 
 ## Built with 🛠️
  C programming Language
@@ -99,7 +102,7 @@ Check who contributed to this project [here](https://github.com/your/project/con
       </p>
 </p>
 <p align="center">
-    <h3 align="center">Katherine Gomez</h3>
+    <h3 align="center">Katherin Gomez</h3>
       <p align="center">
         <a href="https://twitter.com/Katgo__" target="_blank">
             <img alt="twitter_page" src="https://github.com/lacrisy21/README-stuff/blob/main/twitter.png" style="float: center; margin-right: 10px" height="30" width="30">

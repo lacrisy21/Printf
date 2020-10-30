@@ -24,6 +24,7 @@ int _printf(const char *format, ...)
 		if (*format != '%' && *format)
 			check_formatdifferent(form, bytes);
 	}
+	va_end(arg);
 	return (total);
 }
 /**
