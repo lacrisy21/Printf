@@ -4,7 +4,7 @@
  * @arg: argument from pass to printf.
  * @bytes: pointer to count the numbers of bytes.
  */
-void ini_char(va_list arg, int *bytes)/*format to char"
+void ini_char(va_list arg, int *bytes)/*format to char*/
 {
 	char character;
 
@@ -17,7 +17,7 @@ void ini_char(va_list arg, int *bytes)/*format to char"
  * @arg: argument from pass to printf.
  * @bytes: pointer to count the numbers of bytes.
  */
-void ini_string(va_list arg, int *bytes)/*format to string"
+void ini_string(va_list arg, int *bytes)/*format to string*/
 {
 	char *s;
 	int bit = 0;
